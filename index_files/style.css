@@ -56,14 +56,93 @@ section {
 
 table {
 	border-collapse: collapse;
-	border: 1px solid #ccc;
-	font-size: 80%;
+	border: 0px;
+	margin: 0 auto;
+	padding: 0;
 }
+#pagetitle {
+	background-image: url(../assets/makeporn.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: 576px;
+	height: calc(157px/2);
+	max-width: 100%;
+	min-height: 100%;
+	margin: 2em auto;
+}
+#pagetitle:hover {
+	background-position: left bottom;
+}
+#pagetitle span {
+	display: none;
+}
+
+.menu span {
+	display: none;
+}
+
+#blog:link, #blog:visited {
+	background-image: url(../assets/blog.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: 65px;
+	height: 32px;
+	display: block;
+}
+
+#blog:hover, #blog:active {
+	background-position: left bottom;
+}
+
+#instagram:link, #instagram:visited {
+	background-image: url(../assets/instagram.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: 158px;
+	height: 32px;
+	display: block;
+}
+
+#instagram:hover, #instagram:active {
+	background-position: left bottom;
+}
+
+#everything:link, #everything:visited {
+	background-image: url(../assets/everything.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: 457px;
+	height: 32px;
+	display: block;
+}
+
+#everything:hover, #everything:active {
+	background-position: left bottom;
+}
+
+#wechat:link, #wechat:visited {
+	background-image: url(../assets/wechat.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: 128px;
+	height: 32px;
+	display: block;
+}
+
+#wechat:hover, #wechat:active {
+	background-position: left bottom;
+}
+
 td, th {
 	text-align: left;
-	padding: 5px;
-	vertical-align: baseline;
-	border: 1px solid #ccc;
+	padding: 0px;
+	vertical-align: top;
+	border: 0;
 }
 
 
@@ -129,4 +208,78 @@ h4 {
 	font-weight: normal;
 }
 
+#pagetitle {
+	background-image: url(../assets/makeporn.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: calc(576px/1.5);
+	height: calc(157px/3);
+	max-width: 100%;
+	min-height: 100%;
+	margin: 2em auto;
+}
+#pagetitle:hover {
+	background-position: left bottom;
+}
+
+#blog:link, #blog:visited {
+	background-image: url(../assets/blog.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: calc(65px/2.5);
+	height: calc(32px/2.5);
+	display: block;
+}
+
+#blog:hover, #blog:active {
+	background-position: left bottom;
+}
+
+#instagram:link, #instagram:visited {
+	background-image: url(../assets/instagram.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: calc(158px/2.5);
+	height: calc(32px/2.5);
+	display: block;
+}
+
+#instagram:hover, #instagram:active {
+	background-position: left bottom;
+}
+
+#everything:link, #everything:visited {
+	background-image: url(../assets/everything.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: calc(457px/2.5);
+	height: calc(32px/2.5);
+	display: block;
+}
+
+#everything:hover, #everything:active {
+	background-position: left bottom;
+}
+
+#wechat:link, #wechat:visited {
+	background-image: url(../assets/wechat.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: calc(128px/2.5);
+	height: calc(32px/2.5);
+	display: block;
+}
+
+#wechat:hover, #wechat:active {
+	background-position: left bottom;
+}
+
+
+
 	}
+	
