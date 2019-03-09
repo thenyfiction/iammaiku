@@ -65,8 +65,8 @@ table {
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size: 100% auto;
-	width: 576px;
-	height: calc(157px/2);
+	width: calc(1152px/1.15);
+	height: calc(157px/1.15);
 	max-width: 100%;
 	min-height: 100%;
 	margin: 2em auto;
@@ -104,6 +104,8 @@ table {
 	width: 158px;
 	height: 32px;
 	display: block;
+	text-align: center;
+	margin: 0 auto;
 }
 
 #instagram:hover, #instagram:active {
@@ -118,6 +120,8 @@ table {
 	width: 457px;
 	height: 32px;
 	display: block;
+	text-align: center;
+	margin: 0 auto;
 }
 
 #everything:hover, #everything:active {
@@ -132,6 +136,8 @@ table {
 	width: 128px;
 	height: 32px;
 	display: block;
+	text-align: right;
+	margin: 0 auto;
 }
 
 #wechat:hover, #wechat:active {
@@ -184,6 +190,158 @@ figure {
 figcaption {
 	font-size: 80%;
 }
+
+
+@media screen and (max-width: 1400px) {
+
+#pagetitle {
+	background-image: url(../assets/makeporn.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: calc(576px/1);
+	height: calc(157px/2);
+	max-width: 100%;
+	min-height: 100%;
+	margin: 2em auto;
+}
+#pagetitle:hover {
+	background-position: left bottom;
+}
+
+#blog:link, #blog:visited {
+	background-image: url(../assets/blog.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: calc(65px/1.5);
+	height: calc(32px/1.5);
+	display: block;
+}
+
+#blog:hover, #blog:active {
+	background-position: left bottom;
+}
+
+#instagram:link, #instagram:visited {
+	background-image: url(../assets/instagram.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: calc(158px/1.5);
+	height: calc(32px/1.5);
+	display: block;
+}
+
+#instagram:hover, #instagram:active {
+	background-position: left bottom;
+}
+
+#everything:link, #everything:visited {
+	background-image: url(../assets/everything.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: calc(457px/1.5);
+	height: calc(32px/1.5);
+	display: block;
+}
+
+#everything:hover, #everything:active {
+	background-position: left bottom;
+}
+
+#wechat:link, #wechat:visited {
+	background-image: url(../assets/wechat.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: calc(128px/1.5);
+	height: calc(32px/1.5);
+	display: block;
+}
+
+#wechat:hover, #wechat:active {
+	background-position: left bottom;
+}
+
+	}
+
+
+@media screen and (max-width: 1024px) {
+
+#pagetitle {
+	background-image: url(../assets/makeporn.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: calc(576px/1.5);
+	height: calc(157px/3);
+	max-width: 100%;
+	min-height: 100%;
+	margin: 2em auto;
+}
+#pagetitle:hover {
+	background-position: left bottom;
+}
+
+#blog:link, #blog:visited {
+	background-image: url(../assets/blog.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: calc(65px/2);
+	height: calc(32px/2);
+	display: block;
+}
+
+#blog:hover, #blog:active {
+	background-position: left bottom;
+}
+
+#instagram:link, #instagram:visited {
+	background-image: url(../assets/instagram.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: calc(158px/2);
+	height: calc(32px/2);
+	display: block;
+}
+
+#instagram:hover, #instagram:active {
+	background-position: left bottom;
+}
+
+#everything:link, #everything:visited {
+	background-image: url(../assets/everything.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: calc(457px/2);
+	height: calc(32px/2);
+	display: block;
+}
+
+#everything:hover, #everything:active {
+	background-position: left bottom;
+}
+
+#wechat:link, #wechat:visited {
+	background-image: url(../assets/wechat.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% auto;
+	width: calc(128px/2);
+	height: calc(32px/2);
+	display: block;
+}
+
+#wechat:hover, #wechat:active {
+	background-position: left bottom;
+}
+	}
+
 
 @media screen and (max-width: 768px) {
 
@@ -278,8 +436,6 @@ h4 {
 #wechat:hover, #wechat:active {
 	background-position: left bottom;
 }
-
-
 
 	}
 	
